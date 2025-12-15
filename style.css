@@ -1,0 +1,36 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #2c3e50;       /* Mengubah warna teks judul */
+    text-align: center;   /* Membuat teks rata tengah */
+}
+
+p {
+    text-align: center;   /* Membuat paragraf rata tengah */
+    color: #666;          /* Warna abu-abu yang lebih lembut */
+}
+
+img {
+    display: block;
+    margin: 20px auto;    /* Trik untuk membuat gambar rata tengah */
+    width: 150px;         /* Mengatur lebar gambar */
+    height: 150px;        /* Mengatur tinggi gambar */
+    object-fit: cover;    /* Agar gambar tidak gepeng */
+    border-radius: 50%;   /* Mantra untuk membuat lingkaran! */
+}
+button {
+    display: block;
+    margin: 20px auto;      /* Posisi Tengah */
+    
+    padding: 10px 25px;     /* Memberi ruang napas di dalam tombol */
+    background-color: #3498db; /* Warna biru modern */
+    color: white;           /* Warna tulisan putih */
+    border: none;           /* Membuang garis pinggir jadul */
+    border-radius: 8px;     /* Membuat sudut tumpul (tidak lancip) */
+    cursor: pointer;        /* Mengubah kursor jadi gambar tangan */
+    font-size: 16px;        /* Memperbesar tulisan */
+}
